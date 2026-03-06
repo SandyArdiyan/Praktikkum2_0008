@@ -57,3 +57,22 @@ class _CounterManagerState extends State<CounterManager> {
           ),
           
           const SizedBox(height: 40),
+
+             // 2. KARTU GAMBAR (Di tengah)
+          Expanded(
+            child: Center(
+              child: Container(
+                margin: const EdgeInsets.symmetric(horizontal: 40),
+                padding: const EdgeInsets.all(20),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(20),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withOpacity(0.05),
+                      blurRadius: 20,
+                      spreadRadius: 5,
+                      offset: const Offset(0, 5),
+                    ),
+                  ],
+                ),
