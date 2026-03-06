@@ -40,7 +40,7 @@ class _CounterManagerState extends State<CounterManager> {
           
           // 1. JUDUL
           const Text(
-            "Praktikkum 2",
+            "Kartu Identitas",
             style: TextStyle(
               fontSize: 28,
               fontWeight: FontWeight.bold,
