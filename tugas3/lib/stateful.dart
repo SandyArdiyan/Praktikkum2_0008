@@ -32,3 +32,28 @@ class _CounterManagerState extends State<CounterManager> {
           ),
         ],
       ),
+
+ // --- BODY UTAMA ---
+      body: Column(
+        children: [
+          const SizedBox(height: 20),
+          
+          // 1. JUDUL
+          const Text(
+            "Praktikkum 2",
+            style: TextStyle(
+              fontSize: 28,
+              fontWeight: FontWeight.bold,
+              color: Colors.black87,
+            ),
+          ),
+          const SizedBox(height: 8),
+          const Text(
+            "Halooo Coba Statefull Widget",
+            style: TextStyle(
+              fontSize: 14,
+              color: Colors.grey,
+            ),
+          ),
+          
+          const SizedBox(height: 40),
