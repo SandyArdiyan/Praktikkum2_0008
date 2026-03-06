@@ -142,3 +142,27 @@ class _CounterManagerState extends State<CounterManager> {
                     ),
                   ],
                 ),
+                 const SizedBox(height: 30),
+                
+                // Text NIM dan Nama di paling bawah
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: const [
+                    Text(
+                      "20230140008",
+                      style: TextStyle(color: Colors.grey, fontSize: 13),
+                    ),
+                    Text(
+                      "Sandy Ardiyan",
+                      style: TextStyle(color: Colors.grey, fontSize: 13),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
