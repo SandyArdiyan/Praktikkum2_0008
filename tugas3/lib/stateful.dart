@@ -76,3 +76,25 @@ class _CounterManagerState extends State<CounterManager> {
                     ),
                   ],
                 ),
+
+         // Gambar dimasukkan ke dalam ClipRRect agar ujungnya ikut melengkung
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(15),
+                  child: Image.asset(
+                    // PENTING: Pastikan letak dan nama file fotomu benar di sini!
+                    "public/images/foto.jpg", 
+                    fit: BoxFit.cover,
+                    // Error builder agar tidak blank jika gambar gagal dimuat
+                    errorBuilder: (context, error, stackTrace) => Container(
+                      height: 200,
+                      width: double.infinity,
+                      color: Colors.blue.shade100,
+                      child: const Center(
+                        child: Text("Gambar tidak ditemukan", textAlign: TextAlign.center,),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
