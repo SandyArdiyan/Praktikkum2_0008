@@ -150,7 +150,7 @@ class _CounterManagerState extends State<CounterManager> {
                   children: const [
                     Text(
                       "20230140008",
-                      style: TextStyle(color: Colors.grey, fontSize: 13),
+                      style: TextStyle(color: Colors.blue, fontSize: 13),
                     ),
                     Text(
                       "Sandy Ardiyan",
